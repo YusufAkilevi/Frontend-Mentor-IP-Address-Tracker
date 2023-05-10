@@ -1,0 +1,81 @@
+.ip-info {
+  position: absolute;
+  top: 170px;
+  width: 80%;
+  padding: 2rem;
+  background-color: #fff;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.ip-info div {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.ip-info div:last-child {
+  border: none;
+}
+.ip-info h3 {
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.ip-info p {
+  font-weight: 500;
+  font-size: 32px;
+}
+@media (max-width: 900px) {
+  .ip-info p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .ip-info {
+    top: 150px;
+    padding: 1rem;
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+  .ip-info div {
+    text-align: center;
+    border-right: none;
+  }
+  .ip-info h3 {
+    margin-bottom: 0.3rem;
+  }
+  .ip-info p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .ip-info div:last-child p {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 375px) {
+  .ip-info {
+    top: 150px;
+    padding: 1rem;
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+  .ip-info div {
+    text-align: center;
+    border-right: none;
+  }
+  .ip-info h3 {
+    margin-bottom: 0.3rem;
+  }
+  .ip-info p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .ip-info div:last-child p {
+    margin-bottom: 0;
+  }
+}

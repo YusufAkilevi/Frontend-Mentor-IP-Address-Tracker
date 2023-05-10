@@ -1,0 +1,13 @@
+.App {
+  font-family: "Rubik", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leaflet-container {
+  width: 100%;
+  height: 70vh;
+  z-index: 1;
+}
