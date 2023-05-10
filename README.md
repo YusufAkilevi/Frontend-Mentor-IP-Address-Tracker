@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/YusufAkilevi/Frontend-Mentor-IP-Address-Tracker](https://github.com/YusufAkilevi/Frontend-Mentor-IP-Address-Tracker)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://ip-address-tracker-yakilevs.netlify.app/](https://ip-address-tracker-yakilevs.netlify.app/)
 
 ## My process
 
